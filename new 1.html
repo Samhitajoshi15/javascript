@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  
+     <script>
+	 var m1,m2,m3,m4,m5,tot,p;
+	 
+	 alert("You need to enter marks for five subjects ");
+	 
+	 m1 = prompt("Enter the marks for subject 1");
+	 m2 = prompt("Enter the marks for subject 2");
+	 m3 = prompt("Enter the marks for subject 3");
+	 m4 = prompt("Enter the marks for subject 4");
+	 m5 = prompt("Enter the marks for subject 5");
+	 
+	 tot= parseInt(m1)+parseInt(m2)+parseInt(m3)+parseInt(m4)+parseInt(m5);
+	 p= (tot/500)*100;
+	 
+	 alert("You have obtained " + p+"% marks and total marks are "+tot);
+	 if(p>=90)
+		 document.write("YAY you have topped with grade A");
+	 
+	 else if (p>=70 && p<90)
+		 document.write("Your grade is B");
+	 
+	 else if (p>=50 && p<70)
+		 document.write("Your grade is C");
+	 
+	 else if(p>33 &&p<50)
+		 document.write("Poor Performance .....Your grade is D");
+	 
+	 else 
+	     { 
+	     confirm("You have failed the examinations");
+	     confirm("Your admission is cancelled for the next class.");
+		 }
+		 
+	 </script>
+  
+
+</body>
+
+</html>

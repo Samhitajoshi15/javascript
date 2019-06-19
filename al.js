@@ -1,0 +1,1 @@
+alert("I am the most powerful human on earth");
