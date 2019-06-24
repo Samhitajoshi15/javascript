@@ -1,0 +1,33 @@
+<html>
+			<head>
+			</head>
+			
+		<body>
+		<meta characterSet="utf-8">
+		<script>
+				var first=0,second=1,next,no;
+				no= prompt("The term number is :" );			
+					if (Number(no)==1)
+						document.write(first);
+					else if(Number(no)==2)
+						document.write(second+ "   ");
+					else
+					{
+					   for(let i=1; i<=Number(no)-2; i++)
+				         {
+						
+						 next = Number(first)+Number(second);
+						 first= Number(second);
+						 second=Number(next);
+						
+					
+				         }
+				       document.write(next);
+					}
+				
+		</script>
+		</body>
+		</html>
+		
+				
+				
